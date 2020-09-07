@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap');
+
+h1 {
+    color : #132e91;
+    font-size:  6ch;
+    margin-left: 2ch;
+}
+
+h2 {
+    color : #0732b2;
+    font-size: 9ch;
+    margin-left: 3ch;
+    float: left;
+    margin-top: 2ch;
+    white-space: nowrap;
+    clear: both;
+}
+
+button {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0ch;
+    float: left;
+    margin-top: 1ch;
+    margin-left: 10ch;
+    font-size: 2.5ch;
+    padding-left: 2ch;
+    padding-right: 2ch;
+    padding-top: 1.2ch;
+    padding-bottom: 1.2ch;
+    clear: both;
+    white-space: nowrap;
+
+}
+
+h3 {
+    color: #132e91;
+    font-family: 'Noto Serif JP', serif;
+    text-align: left;
+    padding-left: 27ch;
+    font-size: 4.2ch;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 1ch;
+    padding-bottom: 0.5ch;
+}
+
+ul {
+    display: table;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8ch;
+    margin-bottom: 5ch;
+
+}
+
+li {
+    padding: 1ch;
+    display: table-cell;
+    white-space: nowrap;
+}
+
+li.home {
+    color: blue;
+}
+
+table {
+    float: left;
+    padding-left: 1ch;
+}
+
+td {
+    align-content: center;
+    text-align: center;
+}
+
+td.image {
+    padding-left: 4ch;   
+}
+
+td.label {
+    padding-top: 4ch;
+    padding-bottom: 8ch;
+    background-color: white;
+    font-family: 'Noto Serif JP', serif;
+    font-size: 3ch;
+    color: #132e91;
+}
+
+img.subpage {
+    border-right: 3ch solid;
+    border-right-color: #a4e1e9;
+    width: 73ch;
+}
+
+.image-parallax {
+    background:url(https://csci571.com/hw/hw3/images/Cutlery.png) fixed no-repeat;
+    background-position: 7ch -9ch;
+    width: 155ch;
+    height: 85ch;
+}
+
+.blank-sp {
+    size: 50ch;
+}
